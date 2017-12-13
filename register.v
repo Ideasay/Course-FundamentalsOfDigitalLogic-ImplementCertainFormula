@@ -13,4 +13,5 @@ always @(negedge clock)
     else
       Q <= D;
   end
+
 endmodule
