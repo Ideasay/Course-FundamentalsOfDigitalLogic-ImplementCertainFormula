@@ -4,7 +4,6 @@ module tb_opr;
 
 reg [3:0] a,b;
 wire [3:0] cout;
-
 reg clock;
 
 opr uut(.a(a),.b(b),.cout(cout),.clock(clock));
@@ -20,5 +19,4 @@ always #10 clock = ~clock;
 always #100 a <= {$random}%16;
 always #100 b <= {$random}%16;
  
-
 endmodule
