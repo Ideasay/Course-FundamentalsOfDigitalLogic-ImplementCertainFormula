@@ -1,5 +1,6 @@
 # projects-of-the-couse-fundamentals-of-digital-logic
 收录本学期数字逻辑基础课程pj_3(FDU)
+使用一个alu完成y = (a + 2) xor (a +b);   
 注意：
 mux-->数据选择;
 register-->寄存器;
